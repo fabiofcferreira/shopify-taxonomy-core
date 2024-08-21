@@ -83,3 +83,5 @@ export default class ShopifyTaxonomyClient {
     };
   }
 }
+
+export { TaxonomyLanguage };
