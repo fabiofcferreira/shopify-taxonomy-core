@@ -1,12 +1,12 @@
 {
-  "name": "ts-package-template",
+  "name": "shopify-taxonomy-core",
   "type": "module",
-  "description": "TypeScript package template to starting shipping at light speed",
+  "description": "Shopify Taxonomy core client to get taxonomy details without internet overhead",
   "main": "dist/index.js",
   "files": [
     "dist"
   ],
-  "repository": "git@github.com:fabiofcferreira/ts-package-template.git",
+  "repository": "git@github.com:fabiofcferreira/shopify-taxonomy-core.git",
   "author": "Fábio Ferreira <ffcfpten@gmail.com>",
   "license": "MIT",
   "scripts": {
@@ -51,5 +51,8 @@
       "yarn format"
     ]
   },
-  "packageManager": "yarn@1.22.22+sha512.a6b2f7906b721bba3d67d4aff083df04dad64c399707841b7acf00f6b133b7ac24255f2652fa22ae3534329dc6180534e98d17432037ff6fd140556e2bb3137e"
+  "packageManager": "yarn@1.22.22+sha512.a6b2f7906b721bba3d67d4aff083df04dad64c399707841b7acf00f6b133b7ac24255f2652fa22ae3534329dc6180534e98d17432037ff6fd140556e2bb3137e",
+  "dependencies": {
+    "zod": "^3.23.8"
+  }
 }
