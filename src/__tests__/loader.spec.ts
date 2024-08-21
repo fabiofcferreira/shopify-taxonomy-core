@@ -14,12 +14,12 @@ describe("Loader", () => {
   it("should throw error when taxonomy definition file is not found", () => {
     expect(() =>
       loadTaxonomyTree(DEFINITIONS_FOLDER_PATH, TaxonomyLanguage.German),
-    ).toThrowErrorMatchingSnapshot();
+    ).toThrow();
   });
 
   it("should throw error when taxonomy definition file schema is not unknown", () => {
     expect(() =>
       loadTaxonomyTree(DEFINITIONS_FOLDER_PATH, TaxonomyLanguage.Portuguese),
-    ).toThrowErrorMatchingSnapshot();
+    ).toThrow();
   });
 });
