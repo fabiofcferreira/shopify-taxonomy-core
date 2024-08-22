@@ -1,6 +1,5 @@
 import path from "path";
-import ShopifyTaxonomyClient from "..";
-import { TaxonomyLanguage } from "../types";
+import ShopifyTaxonomyClient, { TaxonomyLanguage } from "..";
 
 const DEFINITIONS_FOLDER_PATH = path.join(__dirname, "definitions");
 

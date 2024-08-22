@@ -1,6 +1,6 @@
 import path from "path";
-import { TaxonomyLanguage } from "../types";
 import { loadTaxonomyTree } from "../load";
+import { TaxonomyLanguage } from "../locale";
 
 const DEFINITIONS_FOLDER_PATH = path.join(__dirname, "definitions");
 
