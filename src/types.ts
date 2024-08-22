@@ -7,7 +7,7 @@ export enum TaxonomyLanguage {
   Spanish = "es",
   Finnish = "fi",
   French = "fr",
-  Italy = "it",
+  Italian = "it",
   Japanese = "ja",
   Korean = "ko",
   Dutch = "nl",
