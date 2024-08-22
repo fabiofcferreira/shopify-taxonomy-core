@@ -12,7 +12,7 @@ export enum TaxonomyLanguage {
   Polish = "pl",
   BrazilianPortuguese = "pt-BR",
   Portuguese = "pt-PT",
-  Chinese = "zh-CN",
+  SimplifiedChinese = "zh-CN",
 }
 
 export const TaxonomyLanguageName: { [k in TaxonomyLanguage]: string } = {
@@ -29,5 +29,5 @@ export const TaxonomyLanguageName: { [k in TaxonomyLanguage]: string } = {
   [TaxonomyLanguage.Polish]: "Polish",
   [TaxonomyLanguage.BrazilianPortuguese]: "Brazilian Portuguese",
   [TaxonomyLanguage.Portuguese]: "Portuguese",
-  [TaxonomyLanguage.Chinese]: "Chinese",
+  [TaxonomyLanguage.SimplifiedChinese]: "SimplifiedChinese",
 };
