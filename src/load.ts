@@ -1,6 +1,7 @@
 import { readFileSync } from "fs";
 import path from "path";
-import { TaxonomyLanguage, TaxonomyTreeValidator } from "./types";
+import { TaxonomyTreeValidator } from "./types";
+import { TaxonomyLanguage } from "./locale";
 
 export function loadTaxonomyTree(directory = "./", language: TaxonomyLanguage) {
   try {
