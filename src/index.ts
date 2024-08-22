@@ -1,10 +1,6 @@
 import { loadTaxonomyTree } from "./load";
-import {
-  CATEGORY_ID_REGEXP,
-  TaxonomyCategory,
-  TaxonomyLanguage,
-  TaxonomyTree,
-} from "./types";
+import { TaxonomyLanguage, TaxonomyLanguageName } from "./locale";
+import { CATEGORY_ID_REGEXP, TaxonomyCategory, TaxonomyTree } from "./types";
 
 export default class ShopifyTaxonomyClient {
   private language: TaxonomyLanguage;
@@ -84,4 +80,4 @@ export default class ShopifyTaxonomyClient {
   }
 }
 
-export { TaxonomyLanguage };
+export { TaxonomyLanguage, TaxonomyLanguageName };

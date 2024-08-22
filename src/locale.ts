@@ -1,0 +1,33 @@
+export enum TaxonomyLanguage {
+  Danish = "da",
+  German = "de",
+  English = "en",
+  Spanish = "es",
+  Finnish = "fi",
+  French = "fr",
+  Italian = "it",
+  Japanese = "ja",
+  Korean = "ko",
+  Dutch = "nl",
+  Polish = "pl",
+  BrazilianPortuguese = "pt-BR",
+  Portuguese = "pt-PT",
+  Chinese = "zh-CN",
+}
+
+export const TaxonomyLanguageName: { [k in TaxonomyLanguage]: string } = {
+  [TaxonomyLanguage.Danish]: "Danish",
+  [TaxonomyLanguage.German]: "German",
+  [TaxonomyLanguage.English]: "English",
+  [TaxonomyLanguage.Spanish]: "Spanish",
+  [TaxonomyLanguage.Finnish]: "Finnish",
+  [TaxonomyLanguage.French]: "French",
+  [TaxonomyLanguage.Italian]: "Italian",
+  [TaxonomyLanguage.Japanese]: "Japanese",
+  [TaxonomyLanguage.Korean]: "Korean",
+  [TaxonomyLanguage.Dutch]: "Dutch",
+  [TaxonomyLanguage.Polish]: "Polish",
+  [TaxonomyLanguage.BrazilianPortuguese]: "Brazilian Portuguese",
+  [TaxonomyLanguage.Portuguese]: "Portuguese",
+  [TaxonomyLanguage.Chinese]: "Chinese",
+};

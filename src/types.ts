@@ -1,22 +1,5 @@
 import { z } from "zod";
 
-export enum TaxonomyLanguage {
-  Danish = "da",
-  German = "de",
-  English = "en",
-  Spanish = "es",
-  Finnish = "fi",
-  French = "fr",
-  Italian = "it",
-  Japanese = "ja",
-  Korean = "ko",
-  Dutch = "nl",
-  Polish = "pl",
-  BrazilianPortuguese = "pt-BR",
-  Portuguese = "pt-PT",
-  Chinese = "zh-CN",
-}
-
 export const CATEGORY_ID_REGEXP = new RegExp(/^[a-z]{2}((-[0-9]+)*)$/);
 
 const TaxonomyTreeVerticalCategoryValidator = z.object({
