@@ -1,8 +1,8 @@
-import eslint from "@eslint/js";
-import tselint from "typescript-eslint";
-import eslintConfigPrettier from "eslint-config-prettier";
+const eslint = require("@eslint/js");
+const tselint = require("typescript-eslint");
+const eslintConfigPrettier = require("eslint-config-prettier");
 
-export default [
+module.exports = [
   {
     files: ["./src/**/*.{js,mjs,cjs,ts,jsx,tsx}"],
     rules: {

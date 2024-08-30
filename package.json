@@ -1,6 +1,5 @@
 {
   "name": "shopify-taxonomy-core",
-  "type": "module",
   "description": "Shopify Taxonomy core client to get taxonomy details without internet overhead",
   "main": "dist/index.js",
   "files": [
@@ -12,6 +11,7 @@
   "scripts": {
     "prebuild": "rimraf dist",
     "build": "tsc",
+    "build:cjs": "npx rollup src/*. --file index.cjs --format cjs",
     "lint": "eslint --fix",
     "lint:diff": "eslint",
     "format": "yarn prettier -w ./src",
@@ -34,6 +34,7 @@
     "lint-staged": "^15.2.7",
     "prettier": "^3.3.3",
     "rimraf": "^6.0.1",
+    "rollup": "^4.21.2",
     "semantic-release": "^24.0.0",
     "ts-jest": "^29.2.3",
     "typescript": "^5.5.4",

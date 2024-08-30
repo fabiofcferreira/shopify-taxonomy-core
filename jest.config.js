@@ -1,4 +1,4 @@
-export default {
+module.exports = {
   preset: "ts-jest",
   verbose: true,
   maxWorkers: 2,
